@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+ 		cadeia n [5]
+		para(inteiro i=0; i <5; i++){
+			escreva("Informe o numero : ")
+			leia(n[i])
+			}
+
+		limpa()
+		// mkostrar
+
+		para(inteiro j=0; j < 5; j++){
+			se(j<4){
+				escreva(n[j], ",")
+			}
+			se(j==4){
+				escreva(n[j])
+			}
+		}
+
+
+	}
+}
